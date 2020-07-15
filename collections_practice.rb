@@ -31,5 +31,5 @@ def sum_array(array)
 end
 
 def add_s(parts)
-  parts.each_with_index.collect {|part, index|}
+  parts.map {|part| {part|s}
 end
