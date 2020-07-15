@@ -24,7 +24,7 @@ end
 
 def kesha_maker(dollars)
   dollars.each do |dollar|
-    dollar[3].join("s")
+    dollar[3].join("$")
   end  
 end
 
