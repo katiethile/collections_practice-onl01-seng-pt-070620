@@ -24,6 +24,7 @@ end
 
 def kesha_maker(dollars)
   dollars.each do |dollar|
+    
   end  
 end
 
