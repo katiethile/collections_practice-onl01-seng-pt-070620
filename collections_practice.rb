@@ -35,6 +35,5 @@ def sum_array(array)
 end
 
 def add_s(parts)
-foo = "bar"
-foo[foo.length] = "s"
+
 end
