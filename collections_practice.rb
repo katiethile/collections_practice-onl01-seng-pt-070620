@@ -23,7 +23,8 @@ return array
 end 
 
 def kesha_maker(dollars)
-  dollars.scan(/.{3}|.+/).join("$")
+  dollars.each do |dollar|
+    
 end
 
 def find_a(starter)
