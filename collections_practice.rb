@@ -15,7 +15,7 @@ def reverse_array(integers)
 end
 
 def swap_elements(swaps)
-  
+  swaps.sort
 end 
 
 def kesha_maker(dollars)
