@@ -23,7 +23,7 @@ return array
 end 
 
 def kesha_maker(dollars)
-  dollars.collect do |dollar|
+  dollars.each do |dollar|
     dollar[2] = "$"
   end
 end
