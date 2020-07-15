@@ -26,7 +26,6 @@ def kesha_maker(dollars)
   dollars.collect do |dollar|
     dollar[2] = "$"
   end
-  return dollar
 end
 
 def find_a(starter)
