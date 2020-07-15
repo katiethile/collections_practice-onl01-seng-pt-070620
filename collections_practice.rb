@@ -25,7 +25,6 @@ end
 def kesha_maker(dollars)
   dollars.collect do |dollar|
     nameofstring[2]=$
-  end  
 end
 
 def find_a(starter)
