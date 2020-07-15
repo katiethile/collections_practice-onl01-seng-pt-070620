@@ -24,7 +24,7 @@ end
 
 def kesha_maker(dollars)
   dollars.collect do |dollar|
-    dollar[2]=$
+    dollar[2] = "$"
   end
 end
 
