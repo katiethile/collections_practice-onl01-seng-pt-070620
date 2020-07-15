@@ -34,6 +34,9 @@ def sum_array(array)
   array.inject(0){|sum,x| sum + x }
 end
 
-def add_s(parts)
-
+def add_s(input)
+def add_s(input)
+  input.each_with_index do |element, index|
+    element[element.length] = "s" unless index == 1
+  end
 end
