@@ -24,7 +24,7 @@ end
 
 def kesha_maker(dollars)
   dollars.each do |dollar|
-    
+  end  
 end
 
 def find_a(starter)
